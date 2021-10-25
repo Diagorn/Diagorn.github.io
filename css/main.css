@@ -153,3 +153,25 @@ a:hover {
     font-size: 20px;
     text-decoration: underline;
 }
+
+/*Картинка для каждой страницы */
+
+.page-image {
+    width: 100%;
+    height: 400px;
+}
+
+.image-caption {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    width: auto;
+    top: 550px;
+    left: 75px;
+}
+
+.image-caption-text {
+    /*font-weight: bolder; todo: додумать как сделать совсем немного жирнее*/ 
+    margin-bottom: 0px;
+}
