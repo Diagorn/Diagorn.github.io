@@ -175,3 +175,35 @@ a:hover {
     /*font-weight: bolder; todo: додумать как сделать совсем немного жирнее*/ 
     margin-bottom: 0px;
 }
+
+/*Футер*/
+
+.footer {
+    background-color: #033566;
+    min-height: 200px;
+    color: #fff !important;
+}
+
+.footer-contacts, .footer-menu > li > a {
+    color: #fff !important;
+}
+
+.footer > a, .footer > ul > li > a {
+    color: #fff !important;
+}
+
+/*Основной контент страницы*/
+
+.text-div {
+    padding: 5px;
+}
+
+.text-col {
+    padding: 20px;
+    text-align: justify;
+}
+
+.text-img {
+    width: 90%;
+    margin-left: 5%;
+}
