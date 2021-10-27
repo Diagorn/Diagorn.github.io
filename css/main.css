@@ -172,7 +172,7 @@ a:hover {
 }
 
 .image-caption-text {
-    /*font-weight: bolder; todo: додумать как сделать совсем немного жирнее*/ 
+    font-weight: 500;
     margin-bottom: 0px;
 }
 
