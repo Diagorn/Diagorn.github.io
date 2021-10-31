@@ -208,17 +208,3 @@ a:hover {
 }
 
 /*Основной контент страницы*/
-
-.text-div {
-    padding: 5px;
-}
-
-.text-col {
-    padding: 20px;
-    text-align: justify;
-}
-
-.text-img {
-    width: 90%;
-    margin-left: 5%;
-}
