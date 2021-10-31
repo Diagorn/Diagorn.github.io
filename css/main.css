@@ -180,8 +180,12 @@ a:hover {
 
 .footer {
     background-color: #033566;
-    min-height: 200px;
+    min-height: 130px;
     color: #fff !important;
+}
+
+.footer > .row {
+    padding-bottom: 0px !important;
 }
 
 .footer-contacts, .footer-menu > li > a {
@@ -205,20 +209,4 @@ a:hover {
     font-size: 22px;
     margin-top: 8px;
     margin-left: -30px;
-}
-
-/*Основной контент страницы*/
-
-.text-div {
-    padding: 5px;
-}
-
-.text-col {
-    padding: 20px;
-    text-align: justify;
-}
-
-.text-img {
-    width: 90%;
-    margin-left: 5%;
 }

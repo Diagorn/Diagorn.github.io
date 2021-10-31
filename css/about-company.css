@@ -184,6 +184,10 @@ a:hover {
     color: #fff !important;
 }
 
+.footer > .row {
+    padding-bottom: 0px !important;
+}
+
 .footer-contacts, .footer-menu > li > a {
     color: #fff !important;
     text-decoration: none;
