@@ -1,214 +1,265 @@
 /*Общие настройки*/
-body { 
-    width: 100%;
-    overflow-x: hidden;
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
-    text-decoration: none;
-    color: #212529;
+  text-decoration: none;
+  color: #212529;
 }
 
 a:hover {
-    text-decoration: underline;
-    font-weight: bolder;
-    color: #212529;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #212529;
 }
 
 .container-fluid {
-    width: 100%;
-    padding: 0px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1920px;
+  width: 100%;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1920px;
 }
 
 /*Хэдер*/
 .header {
-    background-color: #efeff0;
+  background-color: #efeff0;
 }
 
 .news {
-    border: 1px solid gray;
-    border-top: 0px;
-    border-radius: 10px;
-    background-color: #e0e0e0;
-    padding-top: 13px;
-    margin-top: -8px;
-    margin-bottom: 50px;
+  border: 1px solid gray;
+  border-top: 0px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  padding-top: 13px;
+  margin-top: -8px;
+  margin-bottom: 50px;
 }
 
 .news-post {
-    text-align: center;
+  text-align: center;
 }
 
 .news-date {
-    color: #e7760c;
+  color: #e7760c;
 }
 
 .header-contacts-ul {
-    padding: 5px;
-    margin-left: 135px;
+  padding: 5px;
+  margin-left: 135px;
 }
 
 .header-contacts-li {
-    list-style: none;
-    display: inline;
-    margin-left: 20px;
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
 }
 
 .logo {
-    width: 175px;
-    height: 175px;
-    position: absolute;
-    top: 215px;
-    left: 1600px;
-    z-index: 1000;
+  width: 175px;
+  height: 175px;
+  position: absolute;
+  top: 215px;
+  left: 1600px;
+  z-index: 1000;
 }
 
 .menu-ul {
-    padding: 5px;
-    margin-left: 135px;
+  padding: 5px;
+  margin-left: 135px;
 }
 
 .menu-li {
-    list-style: none;
-    display: inline;
-    margin-left: 20px;
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
 }
 
 .menu-left {
-    padding-left: 20px;
-    min-height: 250px;
-    background: linear-gradient(#ff6320, 20%, #ac1508);
+  padding-left: 20px;
+  min-height: 250px;
+  background: linear-gradient(#ff6320, 20%, #ac1508);
 }
 
 .menu-right {
-    padding: 0px;
-    background-color: #ff6320;
+  padding: 0px;
+  background-color: #ff6320;
 }
 
 .contacts {
-    color: #fff;
-    margin-bottom: -20px;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 560px;
-    right: 300px;
-    background-color: #ff6320;
-    padding: 15px;
-    font-size: 20px;
+  color: #fff;
+  margin-bottom: -20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 560px;
+  right: 300px;
+  background-color: #ff6320;
+  padding: 15px;
+  font-size: 20px;
 }
 
 .contacts > p {
-    padding: 0px;
-    margin-bottom: 5px;
+  padding: 0px;
+  margin-bottom: 5px;
 }
 
 .phone {
-    font-weight: bold;
-    font-size: 28px;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .company-name {
-    font-size: 72px;
-    width: 100%;
-    text-align: center;
-    letter-spacing: 5px;
-    color: #fff;
+  font-size: 72px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #fff;
 }
 
 .company-description {
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    font-size: 36px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
 }
 
 .menu-main {
-    min-height: 40px;
-    background-color: #4f4f4f;
+  min-height: 40px;
+  background-color: #4f4f4f;
 }
 
 .menu-main-ul {
-    padding: 5px;
-    margin-left: 135px;
-    height: 100%;
-    margin-bottom: 0px;
-    vertical-align: middle;
+  padding: 5px;
+  margin-left: 135px;
+  height: 100%;
+  margin-bottom: 0px;
+  vertical-align: middle;
 }
 
 .menu-main-li {
-    list-style: none;
-    display: inline;
-    margin-left: 20px;
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
 }
 
 .menu-main-li > a {
-    color: #fff;
+  color: #fff;
 }
 
 #active {
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 /*Картинка для каждой страницы */
 
 .page-image {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
 .image-caption {
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    position: absolute;
-    width: auto;
-    top: 550px;
-    left: 75px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  width: auto;
+  top: 550px;
+  left: 75px;
 }
 
 .image-caption-text {
-    font-weight: 500;
-    margin-bottom: 0px;
+  font-weight: 500;
+  margin-bottom: 0px;
 }
 
 /*Футер*/
 
 .footer {
-    background-color: #033566;
-    min-height: 200px;
-    color: #fff !important;
+  background-color: #033566;
+  min-height: 200px;
+  color: #fff !important;
 }
 
 .footer > .row {
-    padding-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }
 
-.footer-contacts, .footer-menu > li > a {
-    color: #fff !important;
-    text-decoration: none;
+.footer-contacts,
+.footer-menu > li > a {
+  color: #fff !important;
+  text-decoration: none;
 }
 
-.footer > a, .footer > ul > li > a {
-    color: #fff !important;
-    text-decoration: none;
+.footer > a,
+.footer > ul > li > a {
+  color: #fff !important;
+  text-decoration: none;
 }
 
 .footer-caption {
-    font-size: 26px;
-    font-weight: 450;
+  font-size: 26px;
+  font-weight: 450;
 }
 
-.footer-contacts-li, .footer-menu-li {
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 22px;
-    margin-top: 8px;
-    margin-left: -30px;
+.footer-contacts-li,
+.footer-menu-li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 22px;
+  margin-top: 8px;
+  margin-left: -30px;
 }
 
 /*Основной контент страницы*/
+
+.divider {
+  margin-top: 10px;
+  width: 1860px;
+  margin-left: 30px;
+}
+
+.text-div {
+  padding: 5px;
+}
+
+.text-col {
+  padding: 20px;
+  text-align: justify;
+}
+
+.text-img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.employee-img-container,
+.partner {
+  display: block;
+  text-align: center;
+}
+
+.left-content-block {
+  padding-left: 30px;
+}
+
+.right-content-block {
+  padding-right: 30px;
+}
+
+.main-text {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.partner-img {
+  margin: 0 auto;
+}
+
+.content {
+  margin-bottom: 50px;
+}

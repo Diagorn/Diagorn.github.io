@@ -1,0 +1,14 @@
+.left-text {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.left-img {
+    width: 600px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.content {
+    padding: 10px;
+}
